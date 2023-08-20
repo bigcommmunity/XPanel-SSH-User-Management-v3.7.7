@@ -1,12 +1,12 @@
 <p align="center">
 <picture>
-<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/xlogo.png">
+<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/xlogo.png">
 </picture>
   </p> 
 <h1 align="center"/>X Panel</h1>
 <h6 align="center">X Panel SSH User Management<h6>
 <p align="center">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/xpanel-cp/XPanel-SSH-User-Management">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/bigcommmunity/XPanel-SSH-User-Management-v3.7.7">
 </p>
  
 <p align="center">
