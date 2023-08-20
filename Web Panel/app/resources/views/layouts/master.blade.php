@@ -13,9 +13,9 @@
 <!-- [ Pre-loader ] End -->
 @include('layouts.topnav')
 @php
-    $json = file_get_contents('https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/version.json');
+    $json = file_get_contents('https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/version.json');
     $obj = json_decode($json);
-    $github='https://github.com/xpanel-cp/XPanel-SSH-User-Management/blob/master/README-EN.md#installation-guide';
+    $github='https://github.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/blob/master/README-EN.md#installation-guide';
 @endphp
 @if($obj->last_version>37)
 
