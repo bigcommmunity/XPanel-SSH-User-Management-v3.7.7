@@ -1,13 +1,13 @@
 <p align="center">
 <picture>
-<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/xlogo.png">
+<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/xlogo.png">
 </picture>
   </p> 
 <h1 align="center"/>XPanel</h1>
 <h6 align="center">XPanel SSH User Management<h6>
 <p align="center">
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/xpanel-cp/XPanel-SSH-User-Management/total">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/xpanel-cp/XPanel-SSH-User-Management">
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/total">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/bigcommmunity/XPanel-SSH-User-Management-v3.7.7">
 <a href="https://t.me/Xpanelssh" target="_blank">
 <img alt="Telegram Channel" src="https://img.shields.io/endpoint?label=Channel&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FXpanelssh&color=blue">
 </a>
@@ -89,19 +89,19 @@ bash /root/xpanel.sh OR bash xpanel.sh  OR xpanel
 **Nginx Web Server**
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/install.sh --ipv4)
 ```
 <br>
 
 **Apache Web Server**
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/apache.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/apache.sh --ipv4)
 ```
 
 حل مشکل عدم ارتباط  تماس صوتی و تصویری در اپلیکشن
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/fix-call.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/fix-call.sh --ipv4)
 ```
 دستور بالا را در ترمینال وارد کنید سپس برای UDPGW پورت جدید تعریف کنید بهتر است به جای پورت 7300 پورت 7301 یا 7302 را تنظیم کنید
 <br>
@@ -110,11 +110,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Mana
 ## بهینه سازی سرور
 نصب و حذف تنظیمات با دستور زیر 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/TCP-Tweaker --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/TCP-Tweaker --ipv4)
 ```
 ## فعال سازی SSL
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/ssl.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/ssl.sh --ipv4)
 ```
 با استفاده از دستور بالا می توانید SSL را روی پنل نصب نمائید. به نکات زیر توجه کنید <br>
 1- حتما قبل از نصب SSL پنل را بروز کنید<br>
@@ -127,6 +127,6 @@ SSL بر روی پورتی که روی پنل تعریف کرده اید نصب 
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/xpanel-cp/XPanel-SSH-User-Management.svg)](https://starchart.cc/xpanel-cp/XPanel-SSH-User-Management)
+[![Stargazers over time](https://starchart.cc/bigcommmunity/XPanel-SSH-User-Management-v3.7.7.svg)](https://starchart.cc/bigcommmunity/XPanel-SSH-User-Management-v3.7.7)
 
 
