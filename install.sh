@@ -95,26 +95,26 @@ setCONFIG() {
 wellcomeINSTALL() {
   echo -e "${YELLOW}************ Select XPanel Version Nginx Web Server************"
   echo -e "${GREEN}  1)XPanel v3.8.7"
-  echo -e "${GREEN}  2)XPanel v3.8.6"
-  echo -e "${GREEN}  3)XPanel v3.8.5"
-  echo -e "${GREEN}  4)XPanel v3.7.9"
+  echo -e "${GREEN}  2)XPanel v3.8.2"
+  echo -e "${GREEN}  3)XPanel v3.7.9"
+  echo -e "${GREEN}  4)XPanel v3.7.8"
   echo -ne "${GREEN}\nSelect Version : ${ENDCOLOR}"
   read n
   if [ "$n" != "" ]; then
     if [ "$n" == "1" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-7
+      linkd=https://api.github.com/repos/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/releases/tags/v3-8-7
     fi
     if [ "$n" == "2" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-6
+      linkd=https://api.github.com/repos/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/releases/tags/v3-8-2
     fi
     if [ "$n" == "3" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-5
+      linkd=https://api.github.com/repos/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/releases/tags/v3-7-9
     fi
     if [ "$n" == "4" ]; then
-      linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-7-9
+      linkd=https://api.github.com/repos/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/releases/tags/v3-7-8
     fi
   else
-    linkd=https://api.github.com/repos/xpanel-cp/XPanel-SSH-User-Management/releases/tags/v3-8-7
+    linkd=https://api.github.com/repos/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/releases/tags/v3-8-7
   fi
 }
 userINPU() {
