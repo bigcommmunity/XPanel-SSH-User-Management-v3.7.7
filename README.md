@@ -1,15 +1,17 @@
 <p align="center">
+<!--
 <picture>
-<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/xlogo.png">
+<img width="160" height="160"  alt="BigPanel" src="https://raw.githubusercontent.com/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7/master/xlogo.png">
 </picture>
   </p> 
-<h1 align="center"/>XPanel</h1>
-<h6 align="center">XPanel SSH User Management<h6>
+	-->
+<h1 align="center"/>BigPanel</h1>
+<h6 align="center">BigPanel SSH User Management<h6>
 <p align="center">
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/total">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/bigcommmunity/XPanel-SSH-User-Management-v3.7.7">
-<a href="https://t.me/Xpanelssh" target="_blank">
-<img alt="Telegram Channel" src="https://img.shields.io/endpoint?label=Channel&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FXpanelssh&color=blue">
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7/total">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7">
+<a href="https://t.me/BigPanelssh" target="_blank">
+<img alt="Telegram Channel" src="https://img.shields.io/endpoint?label=Channel&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2FBigPanelssh&color=blue">
 </a>
 </p>
  
@@ -57,10 +59,10 @@ Websocket SSL Payload<br>
 :green_circle: فیک آدرس (جلوگیری از فیلترینگ) <br>
 :green_circle: محدودیت IP(جلوگیری از ورود کاربران به برخی سایت ها)<br>
 :green_circle: اتصال API<br>
-:green_circle: [مولتی سرور](https://github.com/xpanel-cp/Xcs-Multi-Management-XPanel) <br>
+:green_circle: [مولتی سرور](https://github.com/BigPanel-cp/Xcs-Multi-Management-BigPanel) <br>
 
 ## Telegram Channel:
-https://t.me/Xpanelssh
+https://t.me/BigPanelssh
 
 ## حمایت از ما :hearts:
 حمایت های شما برای ما دلگرمی بزرگی است<br> 
@@ -80,28 +82,28 @@ https://t.me/Xpanelssh
 
 Ubuntu 18+ (پیشنهادی :Ubuntu 20)<br>
 
-تغییر نام کاربری، کلمه عبور و پورت همچنین حذف XPanel از روی سرور (نسخه 3.6 به بالاتر)
+تغییر نام کاربری، کلمه عبور و پورت همچنین حذف BigPanel از روی سرور (نسخه 3.6 به بالاتر)
 ```
-bash /root/xpanel.sh OR bash xpanel.sh  OR xpanel
+bash /root/BigPanel.sh OR bash BigPanel.sh  OR BigPanel
 ```
 برای نصب کافیست دستور زیر را وارد کنید<br>
 
 **Nginx Web Server**
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7/master/install.sh --ipv4)
 ```
 <br>
 
 **Apache Web Server**
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/apache.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7/master/apache.sh --ipv4)
 ```
 
 حل مشکل عدم ارتباط  تماس صوتی و تصویری در اپلیکشن
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/fix-call.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7/master/fix-call.sh --ipv4)
 ```
 دستور بالا را در ترمینال وارد کنید سپس برای UDPGW پورت جدید تعریف کنید بهتر است به جای پورت 7300 پورت 7301 یا 7302 را تنظیم کنید
 <br>
@@ -110,11 +112,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-
 ## بهینه سازی سرور
 نصب و حذف تنظیمات با دستور زیر 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/TCP-Tweaker --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7/master/TCP-Tweaker --ipv4)
 ```
 ## فعال سازی SSL
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/XPanel-SSH-User-Management-v3.7.7/master/ssl.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7/master/ssl.sh --ipv4)
 ```
 با استفاده از دستور بالا می توانید SSL را روی پنل نصب نمائید. به نکات زیر توجه کنید <br>
 1- حتما قبل از نصب SSL پنل را بروز کنید<br>
@@ -127,6 +129,6 @@ SSL بر روی پورتی که روی پنل تعریف کرده اید نصب 
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/bigcommmunity/XPanel-SSH-User-Management-v3.7.7.svg)](https://starchart.cc/bigcommmunity/XPanel-SSH-User-Management-v3.7.7)
+[![Stargazers over time](https://starchart.cc/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7.svg)](https://starchart.cc/bigcommmunity/BigPanel-SSH-User-Management-v3.7.7)
 
 
